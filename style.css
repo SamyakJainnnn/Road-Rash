@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#grid{
+    width: 800px;
+    margin: auto;
+    background-color: greenyellow;
+    height: 576px;
+}
+#road{
+    width: 480px;
+    height: 576px;
+    margin: auto;
+    background-color: grey;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+   
+
+}
+#lane1,#lane2,#lane3{
+    border-right: white 1px solid;
+    width: 156px;
+    height: 576px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+#car{
+    width: 70px;
+    height: 100px;
+    background-color: red;
+    position:absolute;
+
+}
+.obstacle{
+    width: 70px;
+    height: 100px;
+    background-color: green;
+    position:absolute;
+    
+
+}
+#score{
+    font-size: 60px;
+    color: white;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+
+}
+#gameOver{
+    font-size: 120px;
+    background-color: aqua;
+    text-align: center;
+}
+#reset{
+    margin-top: 15vh;
+    font-size: 30px;
+    padding: 2px;
+    width: 50%;
+}
